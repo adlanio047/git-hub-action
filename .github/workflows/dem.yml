@@ -6,3 +6,9 @@ jobs:
     steps:
     - name: print to console 
       run: echo Hello GH Actions
+  bud:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print adlan
+        run: echo adlan hello world
+      
